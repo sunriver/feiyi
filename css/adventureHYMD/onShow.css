@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'HanYiXueJun'; 
+	src: url('../../fonts/HanYiXueJun.ttf') format('truetype');
+}
+
+body {
+	background-image: url(../../images/adventureHYMD/doorBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#dot {
+	position: absolute;
+	width: 40px;
+	cursor: pointer;
+	visibility: visible;
+	top: 60%;
+	left: 48.5%;
+}
+
+.cornerWrapper {
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 40%;
+	height: 3%;
+}
+
+#back {
+	height: 100%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+.frameWrapper {
+	/*background-color: red;*/
+	width: 100%;
+	height: 70%;
+	/*display: flex;*/
+	display: none;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+
+.frameWrapper::-webkit-scrollbar {
+	display: none;
+}
+
+.frameItem {
+	box-sizing: border-box;
+	width: 25%;
+	min-width: 25%;
+	height: 95%;
+	background-image: url(../../images/adventureHYMD/frameBG.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 2%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.textPicWrapper {
+	/*background-color: red;*/
+	width: 100%;
+	height: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.textPicWrapper>h1 {
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+	line-height: 2em;
+	font-weight: 900;
+}
+
+.textPicWrapper>h3 {
+	margin-bottom: 1em;
+	font-weight: 400;
+}
+
+.textPicWrapper>h6 {
+	margin-bottom: 3.5em;
+}
+
+.textPicWrapper>img {
+	width: 90%;
+	height: 45%;
+}

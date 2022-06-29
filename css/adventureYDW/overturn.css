@@ -1,0 +1,287 @@
+@media all and (min-width: 310px) {
+	html {
+		font-size: 94px;
+	}
+}
+@media all and (min-width: 370px) {
+	html {
+		font-size: 110px;
+	}
+}
+@media all and (min-width: 410px) {
+	html {
+		font-size: 120px;
+	}
+}
+
+@keyframes active {
+	0% {
+		margin-top: 0rem;
+		margin-left: 0rem;
+		opacity: 1;
+	}
+	100% {
+        margin-top: -0.73rem;
+        margin-left: -0.73rem;
+        opacity: 0;
+	}
+}
+
+@keyframes unactive {
+	0% {
+		margin-top: -0.73rem;
+        margin-left: -0.73rem;
+        opacity: 0;
+	}
+	100% {
+        margin-top: 0rem;
+		margin-left: 0rem;
+		opacity: 1;
+	}
+}
+
+body {
+	background-image: url(../../images/adventureYDW/background.png);
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: fadeIn 1s linear;
+	-webkit-animation: fadeIn 1s linear;
+}
+
+.cornerWrapper {
+	/*background-color: red;*/
+	position: absolute;
+	top: 4%;
+	left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 40%;
+	height: 3%;
+}
+
+#back {
+	height: 100%;
+	margin-right: 5%;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.titleWrapper {
+	position: absolute;
+	top: 5%;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.titleWrapper>p {
+	font-family: "华文新魏";
+	font-size: 0.8em;
+	text-shadow: 3px 3px 3px white;
+}
+
+.titleWrapper>img {
+	width: 5%;
+	margin-left: 3%;
+	align-self: flex-end;
+	cursor: pointer;
+	z-index: 9999;
+}
+
+.helpPicWrapper {
+	position: absolute;
+	width: 77%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+}
+
+.helpPicWrapper>img {
+	margin-top: 4%;
+	width: 100%;
+	height: 100%;
+	z-index: 1500;
+}
+
+.card_box {
+	margin-top: -8%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page_mengceng {
+	position: fixed;
+	top: 0;
+	display: none;
+	z-index: 1000;
+	left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card_border {
+	width: 3.4rem;
+	height: 3.4rem;
+	font-size: 0;
+}
+
+.card {
+	height: 0.73rem;
+    width: 0.73rem;
+    cursor: pointer;
+	display: inline-block;
+	box-shadow: 0.05rem 0.05rem rgba(0,0,0,0.5);
+	overflow: hidden;
+	border-radius: 0.10rem;
+	margin-left: 0.10rem;
+	margin-top: 0.10rem;
+}
+
+.card_backImg {
+	position: relative;
+	z-index: 1;
+	height: 0.73rem;
+    width: 0.73rem;
+}
+
+.card_img {
+	position: absolute;
+	border-radius: 0.10rem;
+	height: 0.73rem;
+    width: 0.73rem;
+}
+
+.card_IndexNum {
+	opacity: 0;
+	z-index: -1;
+	position: relative;
+}
+
+.card_backImg_active {
+	margin-top: -0.73rem;
+	margin-left: -0.73rem;
+	opacity: 0;
+	animation: active 0.3s;
+}
+
+.card_backImg_Unactive {
+	margin-top: 0rem;
+	margin-left: 0rem;
+	opacity: 1;
+	animation: unactive 0.3s;
+}
+
+.endingWrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../images/adventureYDW/helpText.png);
+	background-size: 100% 100%;
+	z-index: 999;
+	animation: fadeIn 2s linear;
+	-webkit-animation: fadeIn 2s linear;
+}
+
+.sideWrapper {
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	box-sizing: border-box;
+	border-top: 5px #9ABDD3 dashed;
+	border-right: 5px #9ABDD3 dashed;
+	border-left: 5px #9ABDD3 dashed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 15%;
+	height: 90%;
+}
+
+#leftSide {
+	align-self: flex-start;
+	margin-left: 8%;
+}
+
+#rightSide {
+	align-self: flex-end;
+	margin-right: 8%;
+}
+
+.rowWrapper {
+	width: 100%;
+	height: 16.7%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.textBox {
+	/*background-color: green;*/
+	width: 25%;
+	height: 100%;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-size: 22px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px #9ABDD3 dashed;
+	background-color: rgba(34, 126, 101, 0.5);
+	text-align: center;
+	writing-mode: vertical-rl;
+}
+
+.picBox {
+	/*background-color: rgba(255, 255, 255, 0.5);*/
+	width: 75%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px #9ABDD3 dashed;
+	/*background-color: rgba(200, 200, 200, 0.9);*/
+}
+
+.picItem {
+	width: 80%;
+	height: 80%;
+	padding: 0 5%;
+	/*z-index: -1;*/
+}
+
+.tipsWrapper {
+	position: absolute;
+	border: 10px #9ABDD3 solid;
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 60%;
+	height: 15%;
+	padding: 1% 2%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	visibility: hidden;
+}
+
+.tipsTittle {
+	font-size: 0.3em;
+	line-height: 0.4em;
+}

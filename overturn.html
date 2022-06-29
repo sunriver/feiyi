@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>乐在其中 清韵非遗</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/adventureYDW/overturn.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/adventureYDW/overturn.js"></script>
+</head>
+<body>
+
+	<div class="cornerWrapper">
+		<img id="back" src="images/back.png" alt="">	
+	</div>
+
+	<div class="titleWrapper">
+		<p>十二化龙</p>
+		<img id="help" src="images/help-white.png" alt="">
+	</div>
+
+	<div class="helpPicWrapper">
+		<img src="images/adventureYDW/helpText.png" alt="">
+	</div>
+	
+	<div class="card_box">
+		<div class="page_mengceng"></div>
+		<div class="card_border"></div>
+	</div>
+
+	<div id="leftSide" class="sideWrapper">
+		<div class="rowWrapper">
+			<div class="textBox"><p>黑鱼灯</p></div>
+			<div id="1" class="picBox">
+				<img class="picItem" src="images/adventureYDW/1-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/1-colorful.png" alt=""> -->
+			</div>
+		</div>
+		<div class="rowWrapper">
+			<div id="2" class="picBox">
+				<img class="picItem" src="images/adventureYDW/2-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/2-colorful.png" alt=""> -->
+			</div>
+			<div class="textBox">鲳鱼灯</div>
+		</div>
+		<div class="rowWrapper">
+			<div class="textBox">黄鱼灯</div>
+			<div id="3" class="picBox">
+				<img class="picItem" src="images/adventureYDW/3-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/3-colorful.png" alt=""> -->
+			</div>
+		</div>
+		<div class="rowWrapper">
+			<div id="4" class="picBox">
+				<img class="picItem" src="images/adventureYDW/4-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/4-colorful.png" alt=""> -->
+			</div>
+			<div class="textBox">龙虾灯</div>
+		</div>
+		<div class="rowWrapper">
+			<div class="textBox">螃蟹灯</div>
+			<div id="5" class="picBox">
+				<img class="picItem" src="images/adventureYDW/5-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/5-colorful.png" alt=""> -->
+			</div>
+		</div>
+		<div class="rowWrapper">
+			<div id="6" class="picBox">
+				<img class="picItem" src="images/adventureYDW/6-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/6-colorful.png" alt=""> -->
+			</div>
+			<div class="textBox">金龙鱼</div>
+		</div>
+	</div>
+
+	<div id="rightSide" class="sideWrapper">
+		<div class="rowWrapper">
+			<div id="12" class="picBox">
+				<img class="picItem" src="images/adventureYDW/12-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/12-colorful.png" alt=""> -->
+			</div>
+			<div class="textBox">雌麒麟鱼</div>
+		</div>
+		<div class="rowWrapper">
+			<div class="textBox">雄麒麟鱼</div>
+			<div id="11" class="picBox">
+				<img class="picItem" src="images/adventureYDW/11-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/11-colorful.png" alt=""> -->
+			</div>
+		</div>
+		<div class="rowWrapper">
+			<div id="10" class="picBox">
+				<img class="picItem" src="images/adventureYDW/10-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/10-colorful.png" alt=""> -->
+			</div>
+			<div class="textBox">象头鱼</div>
+		</div>
+		<div class="rowWrapper">
+			<div class="textBox">虎头鱼</div>
+			<div id="9" class="picBox">
+				<img class="picItem" src="images/adventureYDW/9-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/9-colorful.png" alt=""> -->
+			</div>
+		</div>
+		<div class="rowWrapper">
+			<div id="8" class="picBox">
+				<img class="picItem" src="images/adventureYDW/8-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/8-colorful.png" alt=""> -->
+			</div>
+			<div class="textBox">双合鱼</div>
+		</div>
+		<div class="rowWrapper">
+			<div class="textBox">银龙鱼</div>
+			<div id="7" class="picBox">
+				<img class="picItem" src="images/adventureYDW/7-grey.png" alt="">
+				<!-- <img class="picItem" src="images/adventureYDW/7-colorful.png" alt=""> -->
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="endingWrapper"></div> -->
+	
+	<div class="tipsWrapper">
+		<h1 class="tipsTittle"></h1>
+	</div>
+
+	<audio id="hover" src="audios/hover-light.mp3" preload=""></audio>
+	<audio id="wrong" src="audios/wrong-light.mp3" preload=""></audio>
+	<audio id="correct" src="audios/adventureYDW/correct.mp3" preload=""></audio>
+	<audio id="success" src="audios/adventureYDW/success.mp3" preload=""></audio>
+	<audio id="finish" src="audios/adventureYDW/finish.mp3" preload=""></audio>
+	<audio id="musicBG" src="audios/background.mp3" autoplay="" loop=""></audio>
+
+	<script src="js/adventureYDW/l-by-l.min.js"></script>
+	<script type="text/javascript">
+		var clientWidth = document.body.clientWidth;
+		var clientHeight = document.body.clientHeight;
+	</script>
+</body>
+</html>

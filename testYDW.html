@@ -1,0 +1,586 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- content type -->
+	<meta content="text/html; charset=gb2312" http-equiv="Content-Type">
+    <!-- viewport -->
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <!-- title -->
+    <title>乐在其中 清韵非遗</title>
+    <!-- add js -->
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="js/test/turn.js"></script>              
+    <script src="js/test/jquery.fullscreen.js"></script>
+    <script src="js/test/jquery.address-1.6.min.js"></script>
+	<script src="js/test/onload.js"></script>
+    <script src="js/test/test.js"></script>
+    <!-- add css -->
+    <link rel="stylesheet" href="css/public.css">
+    <link type="text/css" href="css/test/style.css" rel="stylesheet">
+    <link type="text/css" href="css/test/test.css" rel="stylesheet">
+	<style>
+        html, body {
+            margin: 0;
+            padding: 0;
+    		overflow:auto !important;
+        }
+    </style> 
+</head>
+
+<body>
+    <!-- BEGIN FLIPBOOK STRUCTURE -->   
+    <div data-template="true" data-cat="book7" id="fb7-ajax">
+        <!-- BEGIN HTML BOOK -->     
+        <div data-current="book7" class="fb7" id="fb7">
+            <!-- preloader -->
+            <!-- <div class="fb7-preloader">
+                <div id="wBall_1" class="wBall">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div id="wBall_2" class="wBall">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div id="wBall_3" class="wBall">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div id="wBall_4" class="wBall">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div id="wBall_5" class="wBall">
+                    <div class="wInnerBall"></div>
+                </div>
+            </div> -->
+            <!-- background for book -->
+            <div class="fb7-bcg-book">
+                <div class="bookWrapper">
+                    <img src="images/test/book.png" alt="">
+                    <div class="labelWrapper">
+                        <img id="main" class="label" src="images/test/main.png" alt="">
+                        <img id="empty1" class="label" src="images/test/empty.png" alt="">
+                        <a href="javascript:setPage(2)"><img id="history" class="label" src="images/test/history.png" alt=""></a>
+                        <a href="javascript:setPage(8)"><img id="nowadays" class="label" src="images/test/nowadays.png" alt=""></a>
+                        <a href="javascript:setPage(12)"><img id="make" class="label" src="images/test/make.png" alt=""></a>
+                        <!-- <img id="empty2" class="label" src="images/test/empty.png" alt=""> -->
+                        <!-- <img id="knowledgeYDW" class="label" src="images/test/study.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- BEGIN CONTAINER BOOK -->
+            <div id="fb7-container-book">
+                <!-- BEGIN deep linking -->
+                <section id="fb7-deeplinking">
+                    <ul>
+                        <li data-address="start" data-page="1"></li>
+                        <li data-address="page1-page2" data-page="2"></li>
+                        <li data-address="page1-page2" data-page="3"></li>
+                        <li data-address="page3-page4" data-page="4"></li>
+                        <li data-address="page3-page4" data-page="5"></li>
+                        <li data-address="page5-page6" data-page="6"></li>
+                        <li data-address="page5-page6" data-page="7"></li>
+                        <li data-address="page7-page8" data-page="8"></li>
+                        <li data-address="page7-page8" data-page="9"></li>
+                        <li data-address="page9-page10" data-page="10"></li>
+                        <li data-address="page9-page10" data-page="11"></li>
+                        <li data-address="page11-page12" data-page="12"></li>
+                        <li data-address="page11-page12" data-page="13"></li>
+                        <li data-address="page13-page14" data-page="14"></li>
+                        <li data-address="page13-page14" data-page="15"></li>
+                    </ul>
+                </section>
+                <!-- END deep linking -->
+
+                <!-- BEGIN PAGES -->
+                <div id="fb7-book"> 
+                    <div style="background-image:url(images/test/0.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                            <!-- description for page -->
+                            <div class="fb7-page-book">
+                                <div class="listWrapper">
+                                    <h1 id="listTitle">目录</h1>
+                                    <ul>
+                                        <li><a href="javascript:setPage(2)">乐清鱼灯舞历史发展</a></li>
+                                        <li><a href="javascript:setPage(8)">乐清鱼灯舞的现状</a></li>
+                                        <li><a href="javascript:setPage(12)">乐清鱼灯舞的制作流程</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BEGIN PAGE 1 -->          
+                    <div style="background-image:url(images/test/1.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book">
+                                <div class="exerciseWrapper">
+                                    <div class="exerciseTitle">
+                                        <h2>乐清鱼灯舞历史发展</h2>
+                                        <div class="itemWrapper">
+                                            <ol>
+                                                <li id="YDWhistoryQ1">舞鱼灯的习俗在乐清翁垟一带兴起据说在什么时期，距今约300年历史？</li>
+                                                <ol id="YDWhistoryA1" class="optionWrapper" type="A">
+                                                    <li>明清</li>
+                                                    <li>唐朝</li>
+                                                    <li>宋朝</li>
+                                                    <li>元代</li>
+                                                </ol>
+                                                <li id="YDWhistoryQ2">舞鱼灯起源于原始社会的什么舞蹈。东汉张衡《西京赋》中就有鱼化龙、龙化鱼的生动记载？</li>
+                                                <ol id="YDWhistoryA2" class="optionWrapper" type="A">
+                                                    <li>龙图腾</li>
+                                                    <li>鱼图腾</li>
+                                                    <li>鱼</li>
+                                                    <li>龙</li>
+                                                </ol>
+                                                <li id="YDWhistoryQ3">鱼灯舞是沿海许多地区众多活动的必备节目，下列不属于这些活动的是？</li>
+                                                <ol id="YDWhistoryA3" class="optionWrapper" type="A">
+                                                    <li>逢年过节</li>
+                                                    <li>拜神祭祖</li>
+                                                    <li>喜庆丰收</li>
+                                                    <li>求神拜佛</li>
+                                                </ol>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">1</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 1 -->
+
+                    <!-- BEGIN PAGE 2 -->          
+                    <div style="background-image:url(images/test/36.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book"></div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">2</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 2 -->
+
+                    <!-- BEGIN PAGE 3 -->          
+                    <div style="background-image:url(images/test/1.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book">
+                                <div class="exerciseWrapper">
+                                    <div class="exerciseTitle">
+                                        <div class="itemWrapper">
+                                            <ol start="4">
+                                                <li id="YDWhistoryQ4">鱼与“年年有余”“富足有余”的“余”字谐音，故“鱼”便在人民心目中成了许多意象的象征，下列不属于这些意象的是</li>
+                                                <ol id="YDWhistoryA4" class="optionWrapper" type="A">
+                                                    <li>幸福</li>
+                                                    <li>美满</li>
+                                                    <li>吉祥</li>
+                                                    <li>不幸</li>
+                                                </ol>
+                                                <li id="YDWhistoryQ5">温州乐清鱼灯舞，通常以十二盏鱼灯组成一队，被俗称作什么？</li>
+                                                <ol id="YDWhistoryA5" class="optionWrapper" type="A">
+                                                    <li>十二化龙</li>
+                                                    <li>十二条龙</li>
+                                                    <li>十二化鱼</li>
+                                                    <li>十二条鱼</li>
+                                                </ol>
+                                                <li id="YDWhistoryQ6">金龙鱼、银龙鱼、双合鱼（一身两头，合二而一）、虎头鱼、象头鱼、麒麟鱼（1对）等统称作什么？</li>
+                                                <ol id="YDWhistoryA6" class="optionWrapper" type="A">
+                                                    <li>兽首鱼灯</li>
+                                                    <li>兽面鱼灯</li>
+                                                    <li>兽鱼灯</li>
+                                                    <li>半兽鱼灯</li>
+                                                </ol>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">3</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 3 -->
+
+                    <!-- BEGIN PAGE 4 -->          
+                    <div style="background-image:url(images/test/38.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book"></div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">4</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 4 -->
+
+                    <!-- BEGIN PAGE 5 -->          
+                    <div style="background-image:url(images/test/1.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book">
+                                <div class="exerciseWrapper">
+                                    <div class="exerciseTitle">
+                                        <div class="itemWrapper">
+                                            <ol start="7">
+                                                <li id="YDWhistoryQ7">乐清翁垟竹丝灯笼，在温州已经有多少的历史，曾被当作贡品？</li>
+                                                <ol id="YDWhistoryA7" class="optionWrapper" type="A">
+                                                    <li>一千两百多年</li>
+                                                    <li>一千一百多年</li>
+                                                    <li>一千多年</li>
+                                                    <li>九百多年</li>
+                                                </ol>
+                                                <li id="YDWhistoryQ8">竹丝灯，以细篾为架，用棉纸或轻绸制作灯笼，纸面上贴有哪两种图案，深受群众喜爱？</li>
+                                                <ol id="YDWhistoryA8" class="optionWrapper" type="A">
+                                                    <li>牡丹花和太平花</li>
+                                                    <li>菊花和牡丹花</li>
+                                                    <li>太平花和迎春花</li>
+                                                    <li>菊花和迎春花</li>
+                                                </ol>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="buttonWrapper">
+                                        <p id="saveButton7">暂时保存</p>
+                                        <span id="submitButton7">提交批改</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">5</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 5 -->
+
+                    <!-- BEGIN PAGE 6 -->          
+                    <div style="background-image:url(images/test/40.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book"></div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">6</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 6 -->
+
+                    <!-- BEGIN PAGE 7 -->          
+                    <div style="background-image:url(images/test/1.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book">
+                                <div class="exerciseWrapper">
+                                    <div class="exerciseTitle">
+                                        <h2>乐清鱼灯舞的现状</h2>
+                                        <div class="itemWrapper">
+                                            <ol>
+                                                <li id="YDWnowadaysQ1">2008年，浙江在线新闻网发文“沉寂了多少年，拥有百年历史的乐清鱼灯又舞起来了”？</li>
+                                                <ol id="YDWnowadaysA1" class="optionWrapper" type="A">
+                                                    <li>20</li>
+                                                    <li>15</li>
+                                                    <li>100</li>
+                                                    <li>50</li>
+                                                </ol>
+                                                <li id="YDWnowadaysQ2">为了不让鱼灯舞这项传承了几百年的民间活动失传，许多七八十岁的高龄老艺人重出江湖使出自己的生平技艺，扎起了一盏盏形式各样的鱼灯，下定决心让已经沉寂15年的鱼灯舞重新舞起来。下列不属于重出江湖的鱼灯制作老艺人的是？</li>
+                                                <ol id="YDWnowadaysA2" class="optionWrapper" type="A">
+                                                    <li>徐春方</li>
+                                                    <li>徐桂足</li>
+                                                    <li>徐新汉</li>
+                                                    <li>朱锦秀</li>
+                                                </ol>
+                                                <li id="YDWnowadaysQ3">72岁的陈光兴老人请缨当起了义务的鱼灯队总指挥，他花了4天时间，将年轻时盘鱼灯的多少种阵法凭着记忆整理记录下来，绘出阵图输入电脑？</li>
+                                                <ol id="YDWnowadaysA3" class="optionWrapper" type="A">
+                                                    <!-- <div class="optionMerge"> -->
+                                                        <li>40</li>
+                                                        <li>30</li>
+                                                    <!-- </div> -->
+                                                    <!-- <div class="optionMerge"> -->
+                                                        <li>20</li>
+                                                        <li>10</li>
+                                                    <!-- </div> -->
+                                                </ol>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">7</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 7 -->
+
+                    <!-- BEGIN PAGE 8 -->          
+                    <div style="background-image:url(images/test/42.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book"></div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">8</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 8 -->
+
+                    <!-- BEGIN PAGE 9 -->          
+                    <div style="background-image:url(images/test/1.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book">
+                                <div class="exerciseWrapper">
+                                    <div class="exerciseTitle">
+                                        <div class="itemWrapper">
+                                            <ol start="4">
+                                                <li id="YDWnowadaysQ4">据介绍，该村的舞鱼灯活动将持续到正月十七，活动结束后，他们将把其中的多少盏鱼灯作为村里的“文化传家宝”保存起来？ </li>
+                                                <ol id="YDWnowadaysA4" class="optionWrapper" type="A">
+                                                    <li>20</li>
+                                                    <li>18</li>
+                                                    <li>16</li>
+                                                    <li>14</li>
+                                                </ol>
+                                                <li id="YDWnowadaysQ5">乐清市文化馆编导的什么舞蹈应中央电视台综艺频道《群英汇》栏目组邀请到北京进央视进行录制？</li>
+                                                <ol id="YDWnowadaysA5" class="optionWrapper" type="A">
+                                                    <li>《乐清湾鱼灯》</li>
+                                                    <li>《乐清鱼灯》</li>
+                                                    <li>《乐清湾》</li>
+                                                    <li>《乐清》</li>
+                                                </ol>
+                                            </ol>
+                                        </div>
+                                        <div class="buttonWrapper">
+                                            <p id="saveButton8">暂时保存</p>
+                                            <span id="submitButton8">提交批改</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">9</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 9 -->
+
+                    <!-- BEGIN PAGE 10 -->          
+                    <div style="background-image:url(images/test/44.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book"></div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">10</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 10 -->
+
+                    <!-- BEGIN PAGE 11 -->          
+                    <div style="background-image:url(images/test/1.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book">
+                                <div class="exerciseWrapper">
+                                    <div class="exerciseTitle">
+                                        <h2>乐清鱼灯舞的制作流程</h2>
+                                        <div class="itemWrapper">
+                                            <ol>
+                                                <li id="YDWmakeQ1">鱼灯舞的道具制作是非常精巧的，每个鱼灯长约多少米？</li>
+                                                <ol id="YDWmakeA1" class="optionWrapper" type="A">
+                                                    <li>0.5-1</li>
+                                                    <li>1.5-2</li>
+                                                    <li>1-1.5</li>
+                                                    <li>1-1.5</li>
+                                                </ol>
+                                                <li id="YDWmakeQ2">鱼身用削得薄片般的何物扎成鱼的形状？</li>
+                                                <ol id="YDWmakeA2" class="optionWrapper" type="A">
+                                                    <li>竹子</li>
+                                                    <li>木片</li>
+                                                    <li>竹篾</li>
+                                                    <li>木板</li>
+                                                </ol>
+                                                <li id="YDWmakeQ3">有多少段“关节”方便鱼灯展示鱼儿的摇头和摆尾？</li>
+                                                <ol id="YDWmakeA3" class="optionWrapper" type="A">
+                                                    <!-- <div class="optionMerge"> -->
+                                                        <li>五</li>
+                                                        <li>四</li>
+                                                    <!-- </div> -->
+                                                    <!-- <div class="optionMerge"> -->
+                                                        <li>三</li>
+                                                        <li>二</li>
+                                                    <!-- </div> -->
+                                                </ol>
+                                                <li id="YDWmakeQ4">鱼的竹架子做好后，糊上纱纸，用哪两种材料和上颜料画鱼？</li>
+                                                <ol id="YDWmakeA4" class="optionWrapper" type="A">
+                                                    <!-- <div class="optionMerge"> -->
+                                                        <li>元粉和牛皮胶</li>
+                                                        <li>牛皮胶和胶水</li>
+                                                    <!-- </div> -->
+                                                    <!-- <div class="optionMerge"> -->
+                                                        <li>胶水和金粉</li>
+                                                        <li>金粉和元粉</li>
+                                                    <!-- </div> -->
+                                                </ol>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">11</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 11 -->
+
+                    <!-- BEGIN PAGE 12 -->          
+                    <div style="background-image:url(images/test/46.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book"></div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">12</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 12 -->
+
+                    <!-- BEGIN PAGE 13 -->          
+                    <div style="background-image:url(images/test/1.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book">
+                                <div class="exerciseWrapper">
+                                    <div class="exerciseTitle">
+                                        <div class="itemWrapper">
+                                            <ol start="5">
+                                                <li id="YDWmakeQ5">各种不同种类和色彩的鱼儿画好之后，涂上桐油、在鱼腹下装一条多少厘米的长小棍供演员举鱼灯起舞？</li>
+                                                <ol id="YDWmakeA5" class="optionWrapper" type="A">
+                                                    <li>10</li>
+                                                    <li>20</li>
+                                                    <li>30</li>
+                                                    <li>40</li>
+                                                </ol>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="buttonWrapper">
+                                        <p id="saveButton9">暂时保存</p>
+                                        <span id="submitButton9">提交批改</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">13</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 13 -->
+
+                    <!-- BEGIN PAGE 14 -->          
+                    <div style="background-image:url(images/test/48.png)">
+                        <!-- begin container page book --> 
+                        <div class="fb7-cont-page-book">
+                        <!-- description for page--> 
+                            <div class="fb7-page-book"></div>
+                            <!-- begin number page -->               
+                            <div class="fb7-meta">
+                                <span class="fb7-num">14</span>
+                            </div>
+                            <!-- end number page -->
+                        </div>
+                        <!-- end container page book -->
+                    </div>
+                    <!-- END PAGE 14 -->
+                </div>
+                <!-- END PAGES -->
+
+                <!-- arrows -->
+                <!-- <a class="fb7-nav-arrow prev"></a>
+                <a class="fb7-nav-arrow next"></a> -->
+
+                <!-- shadow -->
+                <div class="fb7-shadow"></div>
+            </div>
+            <!-- END CONTAINER BOOK -->
+        </div>
+        <!-- END FOOTER -->
+        <!-- END HTML BOOK -->
+    </div>
+    <!-- END FLIPBOOK STRUCTURE --> 
+    <audio id="musicBG" src="audios/background.mp3" autoplay="" loop=""></audio>
+
+    <!-- CONFIGURATION FLIPBOOK -->
+    <script>
+        jQuery('#fb7-ajax').data('config', {
+            "page_width": "640",
+            "page_height": "920",
+            "go_to_page": "Page",
+            "gotopage_width": "45",
+            "zoom_double_click": "1",
+            "zoom_step": "0.06",
+            "tooltip_visible": "true",
+            "toolbar_visible": "true",
+            "deeplinking_enabled": "true",
+            "double_click_enabled": "true",
+            "rtl": "false"
+        })
+    </script>
+</body>
+</html>

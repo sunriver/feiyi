@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>乐在其中 清韵非遗</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/manufactureXWKZ/manufactureXWKZ.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/manufactureXWKZ/manufactureXWKZ.js"></script>
+</head>
+<body>
+	<!-- <img id="background" src="images/manufactureXWKZ/background.png" alt=""> -->
+	<div class="draftWrapper">
+		<img id="draft1" class="draft" src="images/manufactureXWKZ/draft1.png" alt="">
+		<img id="draft2" class="draft" src="images/manufactureXWKZ/draft2.png" alt="">
+	</div>
+	
+	<div class="cornerWrapper">
+		<img id="back" src="images/back.png" alt="">
+		<img id="help" src="images/help-white.png" alt="">
+	</div>
+
+	<div class="helpPicWrapper">
+		<h1 class="progressTittle">流程提示-选择底稿</h1>
+		<p class="tipsContent">&emsp;&emsp;乐清细纹刻纸的底稿花样一般由具有绘画能力的美术师绘制，他们参照乐清的其他民间艺术，设计出乐清细纹刻纸的主体部分，包括花卉、动物、人物、风景等。一些刻纸艺人也能自己设计和绘制底稿，近几年，还有的艺人利用电脑技术把选中的图片做成刻纸底稿。</p>
+	</div>
+
+	<audio id="hover" src="audios/hover-light.mp3" preload=""></audio>
+	<audio id="musicBG" src="audios/background.mp3" autoplay="" loop=""></audio>
+
+	<script type="text/javascript" src="js/manufactureXWKZ/blowup.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#draft1").blowup({
+				background : "#FCEBB6"
+			});
+			$("#draft2").blowup({
+				background : "#FCEBB6"
+			});
+		})
+	</script>
+</body>
+</html>
